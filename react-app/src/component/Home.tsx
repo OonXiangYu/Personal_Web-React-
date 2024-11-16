@@ -1,3 +1,4 @@
+//image path
 import profilePic from "../assets/profile_pic.png";
 import malaysia from "../assets/malaysia.png";
 import ireland from "../assets/ireland.png";
@@ -7,11 +8,11 @@ import gmail from "../assets/gmail.png";
 
 function Home() {
   return (
-    <div className="container">
+    <div className="container mt-5">
       <div className="row mb-5"></div>
       <div className="row mt-5">
         <div className="col-8 text-left">
-          <p className="fs-4 fw-bold font-serif text-white">Hi Everyone</p>
+          <p className="fs-4 fw-bold font-serif text-warning">Hi Everyone</p>
           <br />
           <p className="fs-1 fw-bold text-white">I'm Oscar Oon,</p>
           <p className="fs-4 fw-bold font-serif text-white mb-5">
@@ -19,11 +20,11 @@ function Home() {
           </p>
           <br />
           <br />
-          <p className="text-white fs-6 fw-bold">
+          <p className="text-warning fs-6 fw-bold">
             Nationality :
             <img src={malaysia} className="mx-5" alt="nationality" width="30" />
           </p>
-          <p className="text-white fs-6 fw-bold mt-4">BirthDate : 08/10/2004</p>
+          <p className="text-warning fs-6 fw-bold mt-4">BirthDate : 08/10/2004</p>
           <br />
           <br />
           <p className="text-white fs-6 fw-bold mt-4">Contact Me :</p>
