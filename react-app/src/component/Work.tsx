@@ -37,6 +37,11 @@ function Work() {
             <span className="mx-1 fs-4 fw-bold font-monospace text-warning">
               &#123;
             </span>
+            <br />
+            <span className="fs-4 fw-bold font-monospace text-info">
+              April 2022 - June 2022
+            </span>
+            <br />
             <p className="mt-4 fs-5 font-monospace text-white">
               <span className="text-info">Clearing</span> restaurant areas to
               ensure a smooth pathway for customers.
@@ -77,18 +82,23 @@ function Work() {
               <span className="mx-1 fs-4 fw-bold font-monospace text-warning">
                 &#123;
               </span>
+              <br />
+              <span className="fs-4 fw-bold font-monospace text-info">
+                Nov 2023 - Feb 2024
+              </span>
+              <br />
               <p className="mt-4 fs-5 font-monospace text-white">
                 Developed a simple
-                <span className="text-info">Visitor Management System</span>
+                <span className="text-info"> Visitor Management System </span>
                 that interacts with the company’s previous internal software and
                 hardware components like a card reader and controller.
                 <br />
                 <br />
-                This project marked the first experience using{" "}
-                <span className="text-info">PHP</span> for development.
+                This project marked the first experience using
+                <span className="text-info"> PHP </span> for development.
                 <br />
                 <br />
-                <span className="text-info">Writing user manuals</span>for the
+                <span className="text-info">Writing user manuals </span>for the
                 company’s product to ensure customers can easily understand and
                 use it.
               </p>
@@ -131,7 +141,6 @@ function Work() {
           </div>
           <div className="col d-flex justify-content-center">
             <div
-              id="1"
               className="work_point"
               onClick={() => handleClick(1)}
             ></div>
@@ -141,7 +150,6 @@ function Work() {
           </div>
           <div className="col d-flex justify-content-center">
             <div
-              id="2"
               className="work_point"
               onClick={() => handleClick(2)}
             ></div>

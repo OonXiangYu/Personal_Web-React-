@@ -1,2 +1,58 @@
+.uni_point {
+  width: 25px;
+  height: 25px;
+  background-color: #ffc107;
+  border-radius: 50%;
+  background-color: #ffc107;
+  box-shadow: 0 0 15px 5px #ffc107;
+  cursor: pointer;
+}
 
-  
+.uni_point:hover {
+  transform: scale(1.2);
+}
+
+.uni_glowing-line {
+  width: 12vw;
+  height: 5px;
+  background-color: #ffc107;
+  box-shadow: 0 0 15px 5px #ffc107;
+  margin-top: 1.5vh;
+}
+
+.uni_slider-container {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+.uni_slider {
+  display: flex;
+  width: 300%;
+  animation: uni_slide 15s infinite;
+}
+
+.uni_slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes uni_slide {
+  0% {
+    transform: translateX(0.5%);
+  }
+  33.33% {
+    transform: translateX(-34%);
+  }
+  66.66% {
+    transform: translateX(-68%);
+  }
+  100% {
+    transform: translateX(0.5%);
+  }
+}
