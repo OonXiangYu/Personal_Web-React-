@@ -6,54 +6,105 @@ import linkedIn from "../assets/linkedIn.png";
 import github from "../assets/github.png";
 import gmail from "../assets/gmail.png";
 
+import "./Home.css";
+
 function Home() {
   return (
     <div className="container mt-5">
       <div className="row mb-5"></div>
       <div className="row mt-5">
         <div className="col-8 text-left">
-          <p className="fs-4 fw-bold font-serif text-warning">Hi Everyone</p>
+          <p className="fs-4 fw-bold font-monospace text-primary">
+            Hi Everyone
+            <span className="fs-4 fw-bold font-monospace text-warning">
+              &#123;
+            </span>
+          </p>
           <br />
-          <p className="fs-1 fw-bold text-white">I'm Oscar Oon,</p>
-          <p className="fs-4 fw-bold font-serif text-white mb-5">
+          <p className="fs-2 fw-bold font-monospace text-white">
+            I'm
+            <span className="fs-2 fw-bold font-monospace text-info mx-2">
+              Oscar Oon
+            </span>
+            ,
+          </p>
+          <p className="fs-4 fw-bold font-monospace text-white mb-5">
             Computer Science Student
           </p>
           <br />
-          <br />
-          <p className="text-warning fs-6 fw-bold">
-            Nationality :
-            <img src={malaysia} className="mx-5" alt="nationality" width="30" />
+          <p className="text-warning fs-5 fw-bold font-monospace">
+            I am an enthusiastic and curious computer science undergraduate with
+            a passion for exploring new technologies and ideas.
+            <br />
+            Originally from
+            <img src={malaysia} className="mx-3" alt="Malaysia" width="20" />, I
+            am currently studying in
+            <img src={ireland} className="mx-3" alt="Ireland" width="20" />,
+            <br />
+            eager to expand my knowledge and experience in the field.
           </p>
-          <p className="text-warning fs-6 fw-bold mt-4">BirthDate : 08/10/2004</p>
+          <br />
+          <span className="fs-4 fw-bold font-monospace text-warning">
+            &#125;
+          </span>
           <br />
           <br />
-          <p className="text-white fs-6 fw-bold mt-4">Contact Me :</p>
+          <p className="fs-4 fw-bold font-monospace text-primary">
+            Contact Me
+            <span className="fs-4 fw-bold font-monospace text-warning">
+              &#123;
+            </span>
+          </p>
           <div className="mt-4">
-          <a href="https://www.linkedin.com/in/oscaroon/" target="_blank">
-            <img src={linkedIn} className="me-5" alt="LinkedIn" width="30" />
-          </a>
-          <a href="https://github.com/OonXiangYu" target="_blank">
-            <img src={github} className="mx-5" alt="Github" width="30" />
-          </a>
-          <a href="mailto:oscaroonjob@gmail.com" target="_blank">
-            <img src={gmail} className="mx-5" alt="Gmail" width="30" />
-          </a>
+            <a
+              href="https://www.linkedin.com/in/oscaroon/"
+              target="_blank"
+              className="image"
+            >
+              <img
+                src={linkedIn}
+                className="hover-image me-5"
+                alt="LinkedIn"
+                width="30"
+              />
+            </a>
+            <a
+              href="https://github.com/OonXiangYu"
+              target="_blank"
+              className="image"
+            >
+              <img
+                src={github}
+                className="hover-image mx-5"
+                alt="Github"
+                width="30"
+              />
+            </a>
+            <a
+              href="mailto:oscaroonjob@gmail.com"
+              target="_blank"
+              className="image"
+            >
+              <img
+                src={gmail}
+                className="hover-image mx-5"
+                alt="Gmail"
+                width="30"
+              />
+            </a>
           </div>
           <br />
-          <div className="mt-4">
-            <img src={ireland} className="me-5" alt="Ireland" width="30" />
-            <span className="text-white fs-6 fw-bold">353 083 076 6427</span>
-          </div>
-          <br />
-          <div className="mt-4">
-          <img src={malaysia} className="me-5" alt="malaysia" width="30" />
-          <span className="text-white fs-6 fw-bold">6016-325-2636</span>
-          </div>
+          <span className="fs-4 fw-bold font-monospace text-warning">
+              &#125;
+          </span>
         </div>
-        <div className="col-4 text-center">
+        <div className="col-1 text-start">
+          <div className="line" />
+        </div>
+        <div className="col-3 text-center mt-5">
           <img
             src={profilePic}
-            className="mt-5"
+            className="ms-5 mt-5"
             alt="profile_picture"
             width="500"
           />

@@ -1,0 +1,83 @@
+.work_point {
+  width: 25px;
+  height: 25px;
+  background-color: #ffc107;
+  border-radius: 50%;
+  background-color: #ffc107;
+  box-shadow: 0 0 15px 5px #ffc107;
+  cursor: pointer;
+}
+
+.work_point:hover {
+  transform: scale(1.2);
+}
+
+.work_glowing-line {
+  width: 17vw;
+  height: 5px;
+  background-color: #ffc107;
+  box-shadow: 0 0 15px 5px #ffc107;
+  margin-top: 1.5vh;
+}
+
+.work_slider-container {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+.ff_slider {
+  display: flex;
+  width: 200%;
+  animation: ff_slide 10s infinite;
+}
+
+.ff_slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.me_slider {
+  display: flex;
+  width: 300%;
+  animation: me_slide 15s infinite;
+}
+
+.me_slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Keyframes to slide the images */
+@keyframes ff_slide {
+  0% {
+    transform: translateX(0.5%);
+  }
+  50% {
+    transform: translateX(-55%);
+  }
+  100% {
+    transform: translateX(0.5%);
+  }
+}
+
+@keyframes me_slide {
+  0% {
+    transform: translateX(0.5%);
+  }
+  33.33% {
+    transform: translateX(-34%);
+  }
+  66.66% {
+    transform: translateX(-68%);
+  }
+  100% {
+    transform: translateX(0.5%);
+  }
+}

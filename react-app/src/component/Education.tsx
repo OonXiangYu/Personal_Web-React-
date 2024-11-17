@@ -1,5 +1,9 @@
+import "./Education.css"
+
 function Education(){
-    return <a>Education</a>;
+    return (
+
+      );
 }
 
 export default Education;
